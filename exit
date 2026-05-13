@@ -1,0 +1,14 @@
+[1mdiff --git a/app/src/main/java/com/ticktackapps/gitrehearsaland/GreetingHelper.kt b/app/src/main/java/com/ticktackapps/gitrehearsaland/GreetingHelper.kt[m
+[1mindex cbb27f6..993d6e4 100644[m
+[1m--- a/app/src/main/java/com/ticktackapps/gitrehearsaland/GreetingHelper.kt[m
+[1m+++ b/app/src/main/java/com/ticktackapps/gitrehearsaland/GreetingHelper.kt[m
+[36m@@ -1,4 +1,7 @@[m
+ package com.ticktackapps.gitrehearsaland[m
+ [m
+[31m-class GreetingHelper {[m
+[32m+[m[32mobject GreetingHelper {[m
+[32m+[m[32m    fun greet(name: String): String {[m
+[32m+[m[32m        return "Hello, $name! You're now a Git master."[m
+[32m+[m[32m    }[m
+ }[m
+\ No newline at end of file[m
